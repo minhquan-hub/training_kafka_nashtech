@@ -1,0 +1,25 @@
+{
+    "name": "training_kafka_nashtech",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node producer.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/minhquan-hub/training_kafka_nashtech.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/minhquan-hub/training_kafka_nashtech/issues"
+    },
+    "homepage": "https://github.com/minhquan-hub/training_kafka_nashtech#readme",
+    "dependencies": {
+        "@kafkajs/confluent-schema-registry": "^3.2.1",
+        "kafkajs": "^2.2.0"
+    }
+}
